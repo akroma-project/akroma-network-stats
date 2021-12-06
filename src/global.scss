@@ -81,8 +81,8 @@ table td {
 
 
 .stat-holder {
-	background: #090909;
-	border: 1px solid rgba(255, 255, 255, 0.05);
+	background: #ffffff;
+	border: 1px solid rgba(2, 2, 2, 0.05);
 }
 
 .big-info {
@@ -125,13 +125,20 @@ span.small-title span.small {
 	-moz-osx-font-smoothing: auto;
 }
 
-.big-info .big-details {
-	display: block;
-	font-weight: 200;
-	font-size: 50px;
-	line-height: 55px;
-	letter-spacing: -4px;
-	word-spacing: nowrap !important;
+.big-info {
+	.big-details {
+		display: block;
+		font-weight: 200;
+		font-size: 50px;
+		line-height: 55px;
+		letter-spacing: -4px;
+		word-spacing: nowrap !important;
+	}
+	.small-details {
+		display: block;
+		font-size: 20px;
+		word-spacing: nowrap !important;
+	}
 }
 
 .big-info .big-details .small-hash {

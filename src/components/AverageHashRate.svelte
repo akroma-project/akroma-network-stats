@@ -1,4 +1,4 @@
-<div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 stat-holder">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 stat-holder">
     <div class="big-info difficulty text-orange">
         <div class="pull-left icon-full-width">
             <i class="icon-hashrate" />
